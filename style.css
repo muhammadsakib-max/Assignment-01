@@ -96,6 +96,7 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  margin-bottom: 5rem;
 }
 .hero-title{
   color: var(--white-color);
@@ -118,4 +119,45 @@ nav{
   transform: translateX(-50%);
   font-size: 1.3rem;
   padding: 1.2rem 3.5rem;
+}
+
+/* Speakers Section */
+#speakers h2{
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  
+}
+.speaker-title{
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--background-color);
+}
+.speaker-name{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 0.5rem 0;
+}
+.speaker-affiliation{
+  color: var(--paragraph-color);
+  font-size: 0.85rem;
+}
+.speaker-info{
+  padding: 1.5rem;
+}
+.speaker-card{
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.speaker-card img{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.speaker-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 10rem;
 }
