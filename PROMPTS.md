@@ -1,0 +1,1 @@
+Prompt: Act as a professional UI UX Designer and professional web developer . I am give a pic as a resource. this is my website design . but I have a problem , if you seen this resource , there is a missing section . now your work is , as a professional suggest me , how to I fill up this section . I mean which content is actually replace it ? 
